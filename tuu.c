@@ -3,10 +3,10 @@
 #include<string.h>
 int main(void) {
 	char a[10];
-	int i,n;
+ 	int i,n;
 	scanf("%s",a);
-	n=strlen(a);
-	for(i=0;i<n;i++)
+	  n=strlen(a);
+	 for(i=0;i<n;i++)
 	{
 		if(i%2==0)
 		{
