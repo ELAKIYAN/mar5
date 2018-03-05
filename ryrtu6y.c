@@ -6,11 +6,11 @@ long int a,b,div,mod,n;
 scanf("%d",&n);
 switch(n)
 {
-	case 1:
-	scanf("%ld / %ld",&a,&b);
-	printf("%ld",a/b);
-	break;
-	case 2:
+	 case 1:
+ 	 scanf("%ld / %ld",&a,&b);
+	 printf("%ld",a/b);
+	 break;
+	 case 2:
 	scanf("%ld % %ld",&a,&b);
 
 	printf("%ld",(a%b));
